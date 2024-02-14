@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-euiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+
+        body{
+            background-color: rgb(0,0,33);
+            color: white;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18,18,62);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin:0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(153,153,226);
+            font-size: 1.04rem;
+        }
+        main hr{
+            border:0;
+            background: #9c97f1;
+            height: 1px;
+            margin: 60px 84px;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+           
+        }
+        .firstSection > div{
+            width: 30%;
+           
+        }
+        .leftSection{
+            font-size: 3rem;
+        }
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+        .leftSection a{
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .leftSection .btn{
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            
+        }
+        
+        .leftSection .btn:hover{
+            background: #9c97f1;
+        }
+        .rightSection img{
+            width:80%;
+            margin:5px 0;
+        }
+        .purple{
+            color: blueviolet;
+        }
+        .text-grey{
+            color: grey;
+        }
+        #element{
+            color: rgb(170,107,228);
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+        .secondSection .box{
+            background: white;
+            width: 85vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+        .image-top{
+            width:23px;
+            position: relative;
+            top:-32px;
+            left:-9px;
+
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 20px; 
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 14px;
+        }
+        .thirdSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .thirdSection h1{
+            font-size: 1.9rem;
+            padding: 10px;
+        }
+        .thirdSection ul li{
+            padding:10px ;
+        }
+        footer{
+            background-color: #0e0e1a;
+            margin-top: 0.5px;
+            padding:10px;
+        }
+        .footer{
+            display: flex;
+            padding: 23px 123px;
+            justify-content: space-evenly;
+            
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Ramya's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+                </div>
+                
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi,My name is <span class="purple">Ramya</span> 
+                <div>and Iam a passionate</div>
+                <span id="element">web developer</span>
+                <div class="buttons">
+                    <a href="file:///C:/Users/Ramya/Downloads/RAMYA_THOGITI_%20Resume%20(2).pdf"  Download="resume_pdf" className="btn btn-outline" target="_blank" download>resume</a>
+                    <!--<button class="btn">Download Resume</button>-->
+                    <!--<button class="btn">Visit GitHub</a></button>-->
+                    <a href="https://github.com/ramya380" className="btn btn-outline" target="_blank" GitHub>GitHub</a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="https://img.freepik.com/free-vector/programmer-working-desk_23-2148288753.jpg" alt="developer" >
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">What I have done so far</span>
+             <h1>Projects</h1>
+             <div class="box">
+                <div class="vertical">
+                    <div class="vertical-title">
+                        Myntra clone app
+                    </div>
+                    <div class="vertical-desc">
+                        I developed a Myntra clone web application using HTML,CSS and 
+Javascript.Overcoming challenges and debugging issues provided valuable learning
+opportunities,demonstrating my problem-sloving skills..
+                    </div>   
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        E-commerce website
+                    </div>
+                    <div class="vertical-desc">
+                        I developed a responsive e-commerce website utilizing HTML,
+                        CSS ,and JavaScript.overcoming challenges and bug resolution .This highlighted ,my ability
+                        to create user-friendly interface for online retail platforms.
+                    </div>   
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        Login page
+                    </div>
+                    <div class="vertical-desc">
+                        I developed a login page  using HTML,CSS .Overcoming challenges and debugging issues provided valuable learning
+                        opportunities,demonstrating my problem-sloving skills..
+                    </div>   
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        calculator app
+                    </div>
+                    <div class="vertical-desc">
+                        I developed a calculator application using HTML,CSS and 
+Javascript.Overcoming challenges and debugging issues provided valuable learning
+opportunities,demonstrating my problem-sloving skills..
+                    </div>   
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        weather app
+                    </div>
+                    <div class="vertical-desc">
+                        I developed a weather app using HTML,CSS and 
+Javascript.Overcoming challenges and debugging issues provided valuable learning
+opportunities,demonstrating my problem-sloving skills..
+                    </div>   
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="thirdSection">
+            <div class="skills">
+                <span class="text-grey">What I have done so far</span>
+                <h1>Skills</h1>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>NODEJS</li>
+                    <li>BOOTSTRAP</li>
+                    <li>DOM</li>
+                </ul>
+            </div>
+        </section>             
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first"></div>
+                <h3>Ramya's Developer Portfolio</h3>
+            <div class="footer-second">
+                    <ul>
+                        <h4>Follow us</h4>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>instagram</li>
+                        <li>linkdien</li>
+                    </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <h4>Gmail</h4>
+                    <li>thogitiramya75@gmail.com</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+            <ul>
+                <h4>Contact</h4>
+                <li>7569341343</li>
+                <li>9502590795</li>
+            </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.Ramyaportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer'],
+          typeSpeed: 50,
+        });
+        let btn=document.querySelector(".btn");
+        btn.onclick=()=>{
+        console.log('button click');
+        }
+      </script>
+
+</body>
+</html>
